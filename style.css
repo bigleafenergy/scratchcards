@@ -1,6 +1,6 @@
 @keyframes titleMove{
-  0% {transform: translate(50%, 0)}
-  100% {transform: translate(-50%, 0)}
+  0% {transform: translate(30%, 0)}
+  100% {transform: translate(-30%, 0)}
 }
 
 
@@ -72,7 +72,7 @@ canvas {
 
 
 #title {
-  animation: titleMove 8s infinite linear;
+  animation: titleMove 8s infinite alternate;
   font-family: 'Bungee Shade', cursive;
   font-size: 64px;
   font-weight: bold;
@@ -84,7 +84,6 @@ canvas {
 }
 
 .poster{
-  /*background-color: #8f12fd;*/
   position: absolute;
   top: 0;
   left: 0;
