@@ -1,6 +1,6 @@
 @keyframes titleMove{
-  0% {transform: translate(50%, 0)}
-  100% {transform: translate(-50%, 0)}
+  0% {transform: translate(30%, 0)}
+  100% {transform: translate(-30%, 0)}
 }
 
 
@@ -76,6 +76,7 @@ canvas {
   font-family: 'Bungee Shade', cursive;
   font-size: 64px;
   font-weight: bold;
+  max-width: 100vw;
 }
 
 .scratched-out {
