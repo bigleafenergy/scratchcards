@@ -1,13 +1,13 @@
 @keyframes titleMove{
-  0% {transform: translate(30%, 0)}
-  100% {transform: translate(-30%, 0)}
+  0% {transform: translate(50%, 0)}
+  100% {transform: translate(-50%, 0)}
 }
 
 
 
 body{
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 /*  background-color: #fff;*/
   cursor: none;
 }
